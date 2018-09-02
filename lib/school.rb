@@ -22,7 +22,7 @@ end
 
 def sort
   roster.each do |grade, name|
-    name.sort { |a, b| a <=> b }
+    name.each do { |a, b| a <=> b }
     
     end
   end
