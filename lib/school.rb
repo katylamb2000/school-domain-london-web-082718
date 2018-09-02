@@ -18,6 +18,7 @@ class School
   def grade
     puts roster[grade]name
   end
+end
 
 
   
