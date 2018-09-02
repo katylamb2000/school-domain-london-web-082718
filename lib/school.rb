@@ -13,8 +13,8 @@ class School
   end
   
   def add_student (student, grade)
-    new_hash[name] ||=attributes
-    @roster["new"] << "student"
+    @roster[grade] ||=student
+    @roster[grade] << student
     
     # roster[grade] ||= []
     # roster[grade] << student_name
