@@ -11,24 +11,14 @@ class School
  end
   
   def add_student (name, grade)
-    
-  #     if @roster[grade] != nil
-  #     @roster[grade] << name
-  #   else
-  #     @roster[grade] = [name]
-  #   end
-  # end
     roster[grade] ||= []
     roster[grade] << name
-    
-    # roster[grade] ||= []
-    # roster[grade] << student_name
-end
-end
-
-# def add_student (student, grade)
+  end
   
-#   roster = [grade => student]
+  def grade
+    puts roster[grade]name
+  end
+
 
   
  
