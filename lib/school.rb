@@ -27,7 +27,6 @@ def sort
     end
   end
   @roster
-end
 
 
 
