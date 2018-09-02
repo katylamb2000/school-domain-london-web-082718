@@ -22,11 +22,11 @@ end
 
 def sort
   self.each do |grade, name|
-    name.sort
+    name.sort { |a, b| a <=> b }
     
     end
   end
-  @roster
+  
 
 
 
