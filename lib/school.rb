@@ -16,7 +16,7 @@ class School
   end
   
   def grade
-    self.grade[:name]
+    self.grade(grade)[:name]
   end
 end
 
