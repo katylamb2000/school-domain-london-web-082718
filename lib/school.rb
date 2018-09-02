@@ -19,6 +19,7 @@ class School
     puts roster[grade]name
   end
 end
+end
 
 
   
