@@ -15,8 +15,8 @@ class School
     roster[grade] << name
   end
   
-  def grade
-    puts roster[grade]name
+  def grade (grade)
+    self.grade[:name]
   end
 end
 end
