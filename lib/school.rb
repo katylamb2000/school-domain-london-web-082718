@@ -19,7 +19,7 @@ class School
     self.grade[:name]
   end
 end
-end
+
 
 
   
