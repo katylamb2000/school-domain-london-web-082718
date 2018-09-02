@@ -20,10 +20,9 @@ class School
   end
 end
 
-def sort
-  roster.each do |grade, name|
-    name.each do { |a, b| a <=> b }
-    
+  def sort
+    @roster.each do |key, value|
+      value.sort!
     end
   end
   
