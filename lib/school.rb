@@ -22,9 +22,9 @@ end
 
 def sort
   
-  @roster.each do |grade, name|
+  roster.each do |grade, name|
     name.sort!
-    @roster
+    roster
     end
   end
 
