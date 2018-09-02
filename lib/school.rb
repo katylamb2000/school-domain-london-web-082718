@@ -14,7 +14,7 @@ class School
   #     @roster[grade] = [name]
   #   end
   # end
-    roster[grade] ||= []
+    @roster[grade] ||= []
     roster[grade] << name
     
     # roster[grade] ||= []
