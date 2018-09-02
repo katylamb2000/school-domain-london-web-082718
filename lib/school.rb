@@ -15,8 +15,8 @@ class School
     roster[grade] << name
   end
   
-  def grade
-    self.grade(grade)[:name]
+  def grade (grade)
+    @roster.grade
   end
 end
 
